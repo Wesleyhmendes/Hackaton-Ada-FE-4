@@ -1,0 +1,50 @@
+{
+  "RecursosHumanos": [
+    {
+      "id": 1,
+      "nome": "Ana Santos",
+      "genero": "Feminino",
+      "etnia": "Branco",
+      "classe_social": "Classe Media",
+      "cargo": "Analista de Recursos Humanos",
+      "departamento": "Recursos Humanos",
+      "escolaridade": "ensino superior"
+    }
+  ],
+  "EngenheiroDeSoftware": [
+    {
+      "id": 1,
+      "nome": "Andre Silva",
+      "genero": "Masculino",
+      "etnia": "Branco",
+      "classe_social": "Classe Media",
+      "cargo": "Engenheiro de Software",
+      "departamento": "Tecnologia da Informação",
+      "escolaridade": "ensino superior"
+    }
+  ],
+  "AnalistaDeMarketing": [
+    {
+      "id": 1,
+      "nome": "Ana Souza",
+      "genero": "Feminino",
+      "etnia": "Branco",
+      "classe_social": "Classe Media",
+      "cargo": "Analista de Marketing Sênior",
+      "departamento": "Marketing",
+      "escolaridade": "ensino superior"
+    }
+  ],
+  "AssistenteAdministrativo": [
+    {
+      "id": 1,
+      "nome": "Ana Silva",
+      "genero": "Feminino",
+      "etnia": "Branco",
+      "classe_social": "Classe Media",
+      "cargo": "Assistente Administrativo Sênior",
+      "departamento": "Administração",
+      "escolaridade": "ensino medio"
+    }
+  ]
+}
