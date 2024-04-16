@@ -24,6 +24,10 @@ export const Section = styled.section`
         display: flex;
         flex-direction: column;
       }
+
+      .inputP {
+        font-weight: 500;
+      }
       
       select {
         background: #fff;
@@ -48,6 +52,10 @@ export const Section = styled.section`
         border: 1px solid #989898;
         border-radius: 7px;
         height: 2.5rem;
+      }
+
+      .inputP {
+        font-weight: 500;
       }
     }
 
@@ -76,7 +84,6 @@ export const Section = styled.section`
       padding: 1rem;
 
       select {
-        min-width: fit-content;
         width: 12rem;
       }
 

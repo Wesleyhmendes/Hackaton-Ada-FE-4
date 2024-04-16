@@ -16,6 +16,9 @@ export const Section = styled.section`
     }
 
     @media(min-width: 768px) {
-
+        p {
+            margin-bottom: 0.6rem;
+        }
+        width: 40%;
     }
 `;

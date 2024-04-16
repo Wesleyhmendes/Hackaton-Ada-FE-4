@@ -8,7 +8,7 @@ export const Section = styled.section`
     margin: 0 auto;
     width: 90%;
     .header {
-      
+      align-items: center;
       display: flex;
       flex-direction: column;
       gap: 2rem;
@@ -20,6 +20,9 @@ export const Section = styled.section`
         justify-content: center;
         gap: 1rem;
       }
+      h1 {
+        font-size: x-large;
+      }
     }
   }
 
@@ -28,6 +31,10 @@ export const Section = styled.section`
     .header {
       flex-direction: row;
       justify-content: space-around;
+
+      h1 {
+        font-size: xx-large;
+      }
     }
   }
 `;

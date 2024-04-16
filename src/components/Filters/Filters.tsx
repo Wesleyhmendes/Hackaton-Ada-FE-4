@@ -44,7 +44,7 @@ function Filters() {
     <S.Section>
       <div className="setorAndFilter">
         <div>
-          <h4>Departamento: </h4>
+          <p className="inputP">Departamento: </p>
           <select
             value={ filters.setor }
             onChange={ (e) => handleChange(e) }
@@ -58,7 +58,7 @@ function Filters() {
           </select>
         </div>
         <div>
-          <h4>Classe Social: </h4>
+          <p className="inputP">Classe Social: </p>
           <select
             value={ filters.classe }
             onChange={ (e) => handleChange(e) }
@@ -71,7 +71,7 @@ function Filters() {
           </select>
         </div>
         <div>
-          <h4>Escolaridade: </h4>
+          <p className="inputP">Escolaridade: </p>
           <select
             value={ filters.escolaridade }
             onChange={ (e) => handleChange(e) }
@@ -83,7 +83,7 @@ function Filters() {
           </select>
         </div>
         <div>
-          <h4>Etnia: </h4>
+          <p className="inputP">Etnia: </p>
           <select
             value={ filters.etnia }
             onChange={ (e) => handleChange(e) }
@@ -96,7 +96,7 @@ function Filters() {
           </select>
         </div>
         <div>
-          <h4>Gênero: </h4>
+          <p className="inputP">Gênero: </p>
           <select
             value={ filters.genero }
             onChange={ (e) => handleChange(e) }
@@ -110,7 +110,7 @@ function Filters() {
         </div>
       </div>
       <label htmlFor="search">
-        <h4>Pesquisar funcionário:</h4>
+        <p className="inputP">Pesquisar funcionário:</p>
         <input
           type="text"
           value={ filters.nome }

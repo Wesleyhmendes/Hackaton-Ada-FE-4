@@ -1,23 +1,17 @@
 {
   "etnia": {
     "Negros": 30,
-    "Brancos": 40,
-    "Pardos": 20,
-    "Indígenas": 5,
-    "Outros": 5
+    "Pardos": 20
   },
   "gênero": {
-    "Masculino": 45,
     "Feminino": 50,
     "Não_binário": 5
   },
   "classe_social": {
     "Baixa_renda": 25,
-    "Classe_média": 60,
-    "Classe_média_alta": 60
+    "Classe_média": 60
   },
   "escolaridade": {
-    "Ensino_Médio": 30,
-    "Ensino_Superior": 70
+    "Ensino_Médio": 30
   }
 }
