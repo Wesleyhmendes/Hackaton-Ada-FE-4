@@ -1,3 +1,3 @@
-# Create Trybe App
+# Create App
 
 Esse é um projeto criado com as principais tecnologias utilizadas no módulo de front-end.
