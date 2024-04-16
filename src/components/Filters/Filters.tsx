@@ -13,7 +13,7 @@ function Filters() {
     nome: '',
   });
 
-  const { setFilteredWorkers } = useContext(WorkerContext);
+  const { setFilteredWorkers, setUsingFilter } = useContext(WorkerContext);
 
   const handleChange = (
     e: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLSelectElement>,
@@ -36,7 +36,7 @@ function Filters() {
         && (!genero || worker.genero === genero)
         && (!nome || worker.nome.toLowerCase().includes(nome.toLowerCase()));
     });
-
+    setUsingFilter(true);
     setFilteredWorkers(filteredResult);
   };
 

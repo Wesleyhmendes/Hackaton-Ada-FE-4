@@ -33,7 +33,12 @@ export const Section = styled.section`
   @media(min-width: 1280px) { table { width: 100%; } }
 `;
 
-export const H3 = styled.section`
+export const H3 = styled.h4`
+  color: #F44336;
   text-align: center;
   padding-top: 3rem;
+`;
+
+export const NoWorker = styled.div`
+  
 `;

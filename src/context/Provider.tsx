@@ -7,10 +7,13 @@ type ProviderProps = {
 
 export default function WorkerProvider({ children }: ProviderProps) {
   const [filteredWorkers, setFilteredWorkers] = useState<any>();
+  const [usingFilter, setUsingFilter] = useState(false);
 
   const value = {
     filteredWorkers,
     setFilteredWorkers,
+    usingFilter,
+    setUsingFilter,
   };
   return (
     <Context.Provider value={ value }>
