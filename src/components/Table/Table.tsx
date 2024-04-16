@@ -11,21 +11,19 @@ function Table() {
           <thead>
             <tr>
               <th>Nome</th>
-              <th>Classe Social</th>
+              <th>Localidade</th>
+              <th>Idade</th>
               <th>Departamento</th>
-              <th>Escolaridade</th>
-              <th>Etnia</th>
               <th>Gênero</th>
             </tr>
           </thead>
           <tbody>
-            { filteredWorkers?.map((worker) => (
-              <tr key={ worker.id }>
+            { filteredWorkers?.map((worker, i) => (
+              <tr key={ i }>
                 <td>{ worker.nome }</td>
-                <td>{ worker.classe_social }</td>
+                <td>{ worker.localidade }</td>
+                <td>{ worker.idade }</td>
                 <td>{ worker.departamento }</td>
-                <td>{ worker.escolaridade }</td>
-                <td>{ worker.etnia }</td>
                 <td>{ worker.genero }</td>
               </tr>
             )) }

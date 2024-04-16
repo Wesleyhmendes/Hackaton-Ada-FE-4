@@ -1,13 +1,12 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-  @media(min-width: 768px) {
+  @media(min-width: 320px) {
     table {
       border-collapse: collapse;
       margin: 0 auto;
       margin-top: 3rem;
       margin-bottom: 3rem;
-      width: 90%;
     }
 
     tr {
@@ -31,7 +30,7 @@ export const Section = styled.section`
     }
   }
 
-  @media(min-width: 1280px) { table { width: 70%; } }
+  @media(min-width: 1280px) { table { width: 100%; } }
 `;
 
 export const H3 = styled.section`

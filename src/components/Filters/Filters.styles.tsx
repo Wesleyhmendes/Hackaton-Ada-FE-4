@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Section = styled.section`
   @media(min-width: 320px) {
+    background: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;

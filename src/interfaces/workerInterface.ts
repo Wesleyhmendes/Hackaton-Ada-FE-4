@@ -7,4 +7,6 @@ export default interface WorkerType {
   cargo: string;
   departamento: string;
   escolaridade: string;
+  idade: number;
+  localidade: string;
 }
